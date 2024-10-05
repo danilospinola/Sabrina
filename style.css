@@ -1,42 +1,38 @@
 /*Celular*/
-body{
-    padding: 0%;
-    margin: 0;
+body {
+  padding: 0%;
+  margin: 0;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.imagem_desktop{
-    margin-top: -10px;
+.imagem_desktop {
+  margin-top: -10px;
 }
-video{
-    width: 100%;
-    margin-top: -10px;
+video {
+  width: 100%;
+  margin-top: -10px;
 }
-.imagem_mobile{
+.imagem_mobile {
+  display: none;
+}
+.headerMobile {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .imagem_mobile {
+    display: block;
+  }
+  .imagem_desktop {
     display: none;
-}
-.headerMobile{
+  }
+
+  .headerDesktop {
     display: none;
+  }
+  .headerMobile {
+    display: block;
+  }
 }
-
-
-@media (max-width: 700px) 
-{
-  .imagem_mobile
-   {
-       display: block;
-   }
-   .imagem_desktop{
-       display: none;
-   }
-
-   .headerDesktop{
-    display: none;
-}
-    .headerMobile{
-        display: block;
-    }
-}
-
