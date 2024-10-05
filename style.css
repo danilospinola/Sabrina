@@ -1,5 +1,7 @@
 /*Celular*/
-
+body{
+    margin: 0;
+}
 
 #agenda{
     margin: auto 0;
