@@ -1,13 +1,42 @@
 /*Celular*/
 body{
+    padding: 0%;
     margin: 0;
 }
 
-#agenda{
-    margin: auto 0;
-    padding: 0;
+img{
     width: 100%;
 }
-button{
-    position: absolute;
+.imagem_desktop{
+    margin-top: -10px;
 }
+video{
+    width: 100%;
+    margin-top: -10px;
+}
+.imagem_mobile{
+    display: none;
+}
+.headerMobile{
+    display: none;
+}
+
+
+@media (max-width: 700px) 
+{
+  .imagem_mobile
+   {
+       display: block;
+   }
+   .imagem_desktop{
+       display: none;
+   }
+
+   .headerDesktop{
+    display: none;
+}
+    .headerMobile{
+        display: block;
+    }
+}
+
